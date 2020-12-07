@@ -1,0 +1,194 @@
+ div {
+background-color: #00218C;
+}
+
+body {
+  background: #00218C;
+  color: #FFFFFF;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container {
+  background: linear-gradient(#F1C40F, #F9E79F);
+  color: #888;
+  padding: 10px;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "row row"
+}
+.col {
+  padding: 10px;
+}
+blockquote {
+  background-color: white; opacity: 0.70;
+}
+.fotur {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "fotur fotur fotur"
+}
+
+.verkefni {
+  text-align: right;
+  color: #F7D37E;
+}
+.innermenu {
+  background-color: #0064CE;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "innermenu";
+}
+.innermenu a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: .4em 1.2em;
+  border: 1px solid #fff;
+  border-width: 0 0 1px 0;
+} 
+.innermenu a:last-child {
+    border: none;
+}
+.innermenu a:hover, .innermenu a:active {
+  color: #0064CE;
+  background-color: #F7D37E;
+}
+.topbutt {
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #0064CE;
+  font-size: 1.5em;
+  display: block;
+  position: fixed;
+  bottom: .5em;
+  right: .5em;
+  width: 1.5em;
+  padding:0 .2em;
+}
+
+.topbutt:active, .topbutt:hover {
+  background-color: #0064CE;
+  color: #fff;
+}
+.gap{
+  grid-gap: 3em;
+}
+.margintop {
+  margin-top: 3em;
+}
+@media screen and (min-width: 60em){
+
+.innermenu {
+  background-color: #0064CE;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+.innermenu a {
+  border-width: 0 1px 0 0;
+}
+/**-----------------------------------------------
+
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+
+figcaption,
+figure,
+main { /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+a {
+  color: #FFFFFF;
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}

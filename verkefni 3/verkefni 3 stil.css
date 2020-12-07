@@ -1,0 +1,38 @@
+body{
+	margin: 0 auto;
+	width:1440px;
+	border: 1px solid green;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-areas: 
+	"haus haus haus haus haus"
+	"listi listi listi listi listi"
+	"vinstri megin megin megin haegri"
+	"fotur fotur fotur fotur fotur";
+}
+h1{text-align: center;}
+
+header{grid-area: haus; border:1px dotted red;height: 200px;}
+
+nav{grid-area: listi; border:1px dotted red; height: 100px;}
+
+main{grid-area: megin; border:1px dotted red; height: 500px;}
+
+aside{grid-area: vinstri; border:1px dotted red; height: 500px;}
+
+article{grid-area: haegri; border:1px dotted red; height: 500px}
+
+footer{grid-area: fotur; border:1px dotted red; height: 100px;}
+
+a{
+	display:inline;
+	padding:100px;
+	margin:50px;
+}
+ul{padding-top: 25px}
+h1{font-family: Georgia;
+	font-style: italic;
+  font-size: 75px;
+  line-height: 60px;}

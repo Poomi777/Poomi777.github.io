@@ -1,0 +1,25 @@
+.first{
+	color:black;
+	text-align: left;
+	border: 1px green solid;
+	margin: 20px; 
+}
+
+.second{
+	color:red;
+	text-align: left;
+	border: 1px green solid;
+	margin: 60px;
+}
+
+.third{
+	color:blue;
+	text-align: left;
+	border: 5px blue dashed;
+	padding: 20px;
+	margin: 60px; 
+}
+
+div{border: 5px red solid;
+	margin: 20px;
+}

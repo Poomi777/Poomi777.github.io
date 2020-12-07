@@ -1,0 +1,228 @@
+*, *:before, *:after {
+  box-sizing: border-box; 
+}
+
+/* ====== GRID Area ====== */
+
+
+/* ====== GRID Template Areas ===== */
+
+
+/* ====== Base CSS ====== */
+
+body {
+line-height: 1.5em;
+}
+.topnav {
+background: #1c2d1c; 
+}
+.header {
+background: tomato; 
+}
+.footer {
+background: lightgreen; 
+}
+.midja {
+background: skyblue; 
+}
+.vinstri {
+background: gold; 
+}
+.haegri {
+background: pink; 
+}
+
+.header,
+.footer,
+.midja,
+.vinstri, 
+.haegri {
+padding: 1em; 
+}
+
+.header h1 {
+color: #fff;
+line-height: 1.2;
+font-weight: normal;
+}
+.midja h2 {
+margin: .7em 0 .8em 0;
+}
+.midja h4 {
+text-align: justify;
+margin: .4em 0;
+}
+.midja p {
+text-align: justify;
+}
+
+/* ========================================
+Efnisyfirlit (mobile)
+======================================== */
+.topnav ul{
+background: #1c2d1c; 
+}
+.topmenu {
+display: block;
+padding: 0;
+margin: 0;
+list-style: none; 
+}
+.topmenu li {
+border: 0;
+border-bottom: 1px solid lime; 
+padding: 0;
+margin:0;
+}
+.topmenu a {
+display: block;     /* ath! */
+color: white;
+text-decoration: none;
+text-align: center;
+padding: .4em 1em; 
+}
+.topmenu a:hover,
+.topmenu a:active,
+.virkur {
+color: black !important;
+background-color: lime;
+}
+
+header{grid-area: Haus;} 
+nav{grid-area: Listi;} 
+.vinstri{grid-area: Vinstri;}  
+.midja{grid-area: Midja;} 
+.haegri{grid-area: Haegri;} 
+footer{grid-area: Fotur;}  
+ 
+#mynd1{grid-area: amynd;}  
+#mynd2{grid-area: bmynd;}  
+#mynd3{grid-area: cmynd;}  
+#mynd4{grid-area: dmynd;}  
+
+/* =======================================
+   myndvinnsla  
+  ======================================== */
+
+/*  hafið myndir <img> alltaf í max-width: 100%; stærð 
+    munið að vinna og þjappa myndir í photoshop ! */
+
+
+/*  ========================================
+Viðmið - breakpoints 30em = 480px + 
+========================================*/
+
+  /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 30em skjástærð */
+
+
+/*  ========================================
+Viðmið - breakpoints 37.5em = 600px GERA+ 
+========================================*/
+
+  /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 37.5em skjástærð */
+.wrapper{
+	display: grid;
+	height: 100vh;
+  	grid-template-columns: 1fr ;
+  	grid-template-rows: 0.2fr 3fr 2fr 2fr 0.6fr 0.2fr;
+  	grid-template-areas:
+  	"Haus"
+  	"Midja"
+  	"Vinstri"
+  	"Haegri"
+  	"Fotur"	
+  	"Listi"
+  	;
+  }
+
+#mynd1,#mynd2,#mynd3,#mynd4, {
+   }  
+
+img{
+  	max-width: 100%;
+  	margin: auto;
+  }  
+
+  .myndabox{
+  	display: grid;
+  	grid-template-columns: 1fr 1fr;
+  	grid-template-areas: 
+  	"amynd bmynd"
+  	"cmynd dmynd";
+  } 
+/* ========================================
+Viðmið - breakpoints 48em = 760px GERA+
+======================================== */
+
+  /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 48em skjástærð */  
+@media screen and (min-width: 48em){
+
+
+
+
+	.wrapper{
+  		display: grid;
+  		grid-template-columns: 1fr 1fr 1fr;
+  		grid-template-rows: 1fr 0.8fr 4fr 4fr 1fr;
+  		grid-template-areas:
+  		"Listi Listi Listi"
+  		"Haus Haus Haus"
+  		"Vinstri Midja Midja"
+  		"Haegri Midja Midja"
+  		"Fotur Fotur Fotur";
+  	} 
+
+   
+
+
+  	nav ul {
+  		text-align: center;
+  		
+  	}  
+  	
+  	.topmenu li {
+  		display: inline-block;
+  		border-bottom: none;
+  		border-left: 1px solid lime;
+  		border-right: 1px solid lime;
+  	
+  	} 
+  	  	
+}
+
+
+/* ========================================
+Viðmið - breakpoints 60em = 960px GERA+
+======================================== */
+
+  /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 60em skjástærð */  
+@media screen and (min-width: 60em){
+
+	body{
+		background-color: orange;
+		width: 75%;
+		margin: auto;
+	}  
+
+
+	
+
+	.wrapper{
+  		display: grid;
+  		height: 100vh;
+  		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  		grid-template-rows: 1fr 0.2fr 0.2fr 0.2fr;
+  		grid-template-areas:
+  		"Listi Listi Listi Listi Listi"
+  		"Haus Haus Haus Haus Haus"
+  		"Vinstri Midja Midja Midja Haegri"
+  		"Fotur Fotur Fotur Fotur Fotur";
+  }  
+
+  
+}
+/* ========================================
+Viðmið - breakpoints 80em = 1280px +
+======================================== */
+
+  /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 80em skjástærð */  

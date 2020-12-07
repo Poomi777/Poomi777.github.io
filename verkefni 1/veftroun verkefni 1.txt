@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>fyrsta vefsíða</title>
+</head>
+<body>
+    Halló heimur!
+</body>
+</html>

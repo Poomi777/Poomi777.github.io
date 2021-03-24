@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.logo{
+
+    stroke-dasharray: 750;
+    stroke-dashoffset: 750;
+    animation: teikning;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.logo2{
+
+    stroke-dasharray: 750;
+    stroke-dashoffset: 750;
+    animation: teikning2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    fill: black;
+}
+
+@keyframes teikning {
+    0%{stroke-dashoffset: 750;}
+    40%{stroke-dashoffset: 1500;}
+    80% {stroke-dashoffset: 0;}
+    100% {stroke-dashoffset: 750;}
+}
+
+@keyframes teikning2 {
+    0%{stroke-dashoffset: 750; fill: transparent;}
+    40%{stroke-dashoffset: 1500; fill: black;}
+    80% {stroke-dashoffset: 0; fill: transparent;}
+    100% {stroke-dashoffset: 750; fill: transparent;}
+}

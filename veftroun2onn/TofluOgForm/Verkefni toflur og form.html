@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toflur og Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <!-- <table>
+            <thead>
+                <th>Nafn</th> <th>Heimilisfang</th> <th>Sími</th> <th>?</th>
+            </thead>
+            <!-- Líka hægt svona
+            <tr> 
+                <td></td> 
+                <td></td> 
+                <td></td> 
+                <td></td> 
+            </tr> ->
+            <tr> <td>bla</td> <td>234232</td> <td>ab1</td> <td>!</td> </tr>
+            <tr> <td>dsfkos</td> <td>23423</td> <td>bg2</td> <td>#</td> </tr>
+            <tr> <td>bl0</td> <td>5234</td> <td>er3</td> <td>"</td> </tr>
+            <tr> <td>ble</td> <td>52341</td> <td>vr4</td> <td>%</td> </tr>
+            <tr> <td>bli</td> <td>42352</td> <td>po5</td> <td>&</td> </tr>
+
+        </table>
+        -->
+
+        <table>
+            <caption>Enhanced Individuals Record</caption>
+            <thead>
+              <tr>
+                <th>enhanced</th>
+                <th>Real Name</th>
+                <th>Occupation/Organization</th>
+                <th>Age</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="enhanced">Captain America</td>
+                <td data-label="Real Name">Steve Rogers</td>
+                <td data-label="Occupation/Organization">Retired</td>
+                <td data-label="Age">106, 39 not counting time in ice</td>
+              </tr>
+              <tr>
+                <td data-label="enhanced">Winter Soldier</td>
+                <td data-label="Real Name">Bucky Barnes</td>
+                <td data-label="Occupation/Organization">Free Agent, USA</td>
+                <td data-label="Age">106 years old</td>
+              </tr>
+              <tr>
+                <td data-label="enhanced">Falcon</td>
+                <td data-label="Real Name">Sam Wilson</td>
+                <td data-label="Occupation/Organization">U.S. Air Force, Free Agent</td>
+                <td data-label="Age">40 years old</td>
+              </tr>
+              <tr>
+                <td data-label="Acount">Scarlet Witch</td>
+                <td data-label="Real Name">Wanda Maximoff</td>
+                <td data-label="Occupation/Organization">On the run</td>
+                <td data-label="Age">29 years old</td>
+              </tr>
+            </tbody>
+          </table>
+          <div>
+            <form>
+                <label for="fname">Full name:</label><br>
+                <input type="text" id="fname" name="fname" value="" required><br>
+                <label for="age">Birth Date:</label><br>
+                <input type="date" id="age" name="age" value="" required min='1900-01-01' max='2020-01-01'><br>
+                <label for="lname">Phone Number:</label><br>
+                <input type="number" id="pnumber" name="pnumber" value="" required><br>
+                <label for="fname">Email:</label><br>
+                <input type="email" id="email" name="email" value="" required><br><br>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br>
+                <input type="radio" id="alien" name="gender" value="alien">
+                <label for="alien">Alien</label><br>
+                
+                <input type="checkbox" id="enhanced1" name="enhanced1" value="enhanced1">
+                <label for="enhanced1"> I am an enhanced individual</label><br>
+                <input type="checkbox" id="enhanced2" name="enhanced2" value="enhanced2">
+                <label for="enhanced2"> I have encountered enhanced individuals</label><br>
+                <input type="checkbox" id="enhanced3" name="enhanced3" value="enhanced3">
+                <label for="enhanced3"> I use my powers to protect</label><br>
+                <input type="checkbox" id="enhanced4" name="enhanced4" value="enhanced4">
+                <label for="enhanced4"> I use my powers to hurt others or for my own benefit</label><br><br>
+
+                <label for="t3">What is your past with enchanced abilities?</label>
+                <textarea id="t3" name="msg" maxlength="140" rows="5"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>

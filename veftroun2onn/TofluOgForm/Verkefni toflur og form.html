@@ -31,7 +31,7 @@
             <caption>Enhanced Individuals Record</caption>
             <thead>
               <tr>
-                <th>Hero Name</th>
+                <th>Hero name</th>
                 <th>Real Name</th>
                 <th>Occupation/Organization</th>
                 <th>Age</th>
@@ -93,8 +93,19 @@
                 <input type="checkbox" id="enhanced4" name="enhanced4" value="enhanced4">
                 <label for="enhanced4"> I use my powers to hurt others or for my own benefit</label><br><br>
 
-                <label for="t3">What is your past with enchanced abilities?</label>
-                <textarea id="t3" name="msg" maxlength="140" rows="5"></textarea>
+                <label for="q1">What is your enhanced abilities related to?</label>
+                <input type="text" id="q1" name="powers" list="l1" required>
+                <datalist id="l1">
+                <option>Physical Enhancement</option>
+                <option>Mental Enhancement</option>
+                <option>Elemental Manipulation/Creation</option>
+                <option>Psychic Manipulation</option>
+                <option>Magic, Sorcery, Witcraft</option>
+                <option>Other</option>
+                </datalist><br><br>
+
+                <label for="q2">What is your past with enchanced abilities?</label>
+                <textarea id="q2" name="msg" maxlength="280" rows="10"></textarea>
 
                 <input type="submit" value="Submit">
             </form>

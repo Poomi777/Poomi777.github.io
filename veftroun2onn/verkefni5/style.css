@@ -1,0 +1,264 @@
+/*div{
+    border: 1px solid red
+}*/
+
+form {
+    font: 1em sans-serif;
+  }
+
+.bold{
+    font-weight: bold;
+    color:white;
+    background-color: black;
+}
+
+
+.u-full-width{
+    width: 100%
+}
+
+.center{
+    text-align: center;
+}
+
+.space{
+    border-top: solid transparent 100px;
+    border-bottom: solid transparent 100px;
+}
+
+.beast{
+    text-align: center;
+    color: white;
+    background-color:#2471A3;
+}
+
+.flame{
+    text-align: center;
+    color: white;
+    background-color:#A93226;
+}
+
+.flower{
+    text-align: center;
+    color: white;
+    background-color:#E6B0AA;
+}
+
+.insect{
+    text-align: center;
+    color: white;
+    background-color:#1B2631;
+}
+
+.love{
+    text-align: center;
+    color: white;
+    background-color:#F1948A;
+}
+
+.mist{
+    text-align: center;
+    color: white;
+    background-color:#85C1E9;
+}
+
+.moon{
+    text-align: center;
+    color: white;
+    background-color:#B3B6B7;
+}
+
+.serpent{
+    text-align: center;
+    color: white;
+    background-color:#707B7C;
+}
+
+.sound{
+    text-align: center;
+    color: white;
+    background-color:#AEB6BF;
+}
+
+.stone{
+    text-align: center;
+    color: white;
+    background-color:#784212;
+}
+
+.sun{
+    text-align: center;
+    color: white;
+    background-color:#F1C40F;
+}
+
+.thunder{
+    text-align: center;
+    color: white;
+    background-color:#9A7D0A;
+}
+
+.water{
+    text-align: center;
+    color: white;
+    background-color:#21618C;
+}
+
+.wind{
+    text-align: center;
+    color: white;
+    background-color:#2ECC71;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?sltp1k');
+    src:  url('fonts/icomoon.eot?sltp1k#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?sltp1k') format('truetype'),
+      url('fonts/icomoon.woff?sltp1k') format('woff'),
+      url('fonts/icomoon.svg?sltp1k#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-file-text2:before {
+    content: "\e926";
+  }
+  .icon-list:before {
+    content: "\e9ba";
+  }
+
+
+header {
+    height: 70px;
+    background-color: #22292F;
+    padding: 10px 0;
+}
+  
+.menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.logo-img {
+    height: 70px;
+}
+.menu-icon {
+    font-size: 2.4em;
+    color: #ffffff;
+    line-height: 50px;
+}
+nav {
+    position: absolute;
+    background-color: #22292F;
+    top:105px;
+    left:1em;
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+nav ul li {
+    padding: 0 15px;
+}
+nav ul li h2 {
+    display: inline-block;
+    padding: 3px;
+    /* Add your custom styles below to change appearance of links */
+    color: green;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+}
+nav ul li h2:hover, nav ul li h2:focus {
+    color: #eb6f4a;
+}
+#checkbox {
+    display: none;
+}
+#checkbox:checked ~ nav ul {
+    max-height: 200px;
+    padding: 15px 0;
+    transition: all 0.5s;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+  @media (min-width: 768px) { 
+    .menu-icon {
+        display: none;
+    }
+    nav {
+        position: relative; /* getur líka verið relative í staðin fixed */
+        top: -25px;
+        background-color: transparent;
+    }
+    nav ul {
+        max-height: 70px;
+        padding: 15px 0;
+        text-align: right;
+    }
+    nav ul li {
+        display: inline-flex;
+        padding-left: 20px;
+    }
+}
+
+
+}
+p{
+    line-height: 1.6;
+    font-size: 1.2em;
+    padding: 0 40px;
+    text-align: center;
+    color: #3D4852;
+}
+
+
+.topbutt {
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5em;
+    display: block;
+    position: fixed;
+    bottom: .5em;
+    right: .5em;
+    width: 1.5em;
+    padding:0 .2em;
+  }
+  
+  .topbutt:active, .topbutt:hover {
+    background-color: #0064CE;
+    color: #fff;

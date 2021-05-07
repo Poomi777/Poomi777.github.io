@@ -1,0 +1,6 @@
+Wireframe: https://app.uizard.io/p/H1f3NcrLG
+
+Það er hægt að scrolla niður og ýta á efnis-takkana sem tekur þig á hina síðurnar - svo þar er hægt að ýta á "home" til að fara til baka á fyrsta síðu
+
+Svo gerði ég þannig að þú getur ýtt á "Efni 1" til að sjá Mobile versionið, en ekki hægt að fara til baka nema að refresha síðuna, þannig ég mæli með að gera það síðast
+(á svo að vera dropdown í mobile versionið fyrir efnisyfirlitið)

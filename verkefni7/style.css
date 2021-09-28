@@ -1,0 +1,99 @@
+@font-face{font-family:icomoon;src:url(fonts/icomoon.eot?sltp1k);src:url(fonts/icomoon.eot?sltp1k#iefix) format('embedded-opentype'),url(fonts/icomoon.ttf?sltp1k) format('truetype'),url(fonts/icomoon.woff?sltp1k) format('woff'),url(fonts/icomoon.svg?sltp1k#icomoon) format('svg');font-weight:400;font-style:normal;font-display:block}
+[class*=" icon-"],[class^=icon-]{font-family:icomoon!important;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-file-text2:before{content:"\e926"}
+.icon-list:before{content:"\e9ba"}
+header{height:70px;background-color:#22292f;padding:10px 0}
+.menu-wrap{display:flex;justify-content:space-between;padding:0 15px}
+.logo-img{height:70px}
+.logo{stroke-dasharray:750;stroke-dashoffset:750;animation:teikning;animation-duration:15s;animation-iteration-count:infinite}
+.logo2{stroke-dasharray:750;stroke-dashoffset:750;animation:teikning2;animation-duration:10s;animation-iteration-count:infinite;fill:#000}
+@keyframes teikning{
+0%{stroke-dashoffset:750}
+40%{stroke-dashoffset:1500}
+80%{stroke-dashoffset:0}
+100%{stroke-dashoffset:750}
+}
+@keyframes teikning2{
+0%{stroke-dashoffset:750;fill:transparent}
+40%{stroke-dashoffset:1500;fill:#000}
+80%{stroke-dashoffset:0;fill:transparent}
+100%{stroke-dashoffset:750;fill:transparent}
+}
+.menu-icon{font-size:2.4em;color:#fff;line-height:50px}
+.efnisyfirlit{position:absolute;background-color:#22292f;top:105px;left:1em;width:90%}
+nav ul{list-style-type:none;max-height:0;overflow:hidden;transition:all .5s}
+nav ul li h3{display:inline-block;padding:5px 10px 5px 10px;color:green;text-decoration:none;letter-spacing:.01em}
+nav ul li h3:focus,nav ul li h3:hover{color:#eb6f4a}
+#checkbox{display:none}
+#checkbox:checked~nav ul{max-height:200px;padding:15px 0;transition:all .5s}
+.fa{padding:20px;font-size:30px;width:50px;text-align:center;text-decoration:none}
+.fa:hover{opacity:.7}
+body{background-color:#000}
+p{line-height:1.6;font-size:1.2em;padding:0 40px;color:#c5c2c2}
+.topbutt{background-color:grey;text-align:center;text-decoration:none;border-radius:50%;color:#fff;font-size:1.5em;display:block;position:fixed;bottom:.5em;right:.5em;width:1.5em;padding:0 .2em}
+.separate{position:relative;display:block;text-align:center;width:100%;height:30px;border:solid #fff;background:#dbd3d3}
+.KnYlogo{width:100%}
+.Breath{display:block;margin-left:auto;margin-right:auto;width:90%;height:250px}
+.Breath-a{position:relative;display:block;text-align:center;width:40%;left:30%;text-decoration:none;top:-140px}
+.BreathText{color:#000;background:#020024;background:linear-gradient(90deg,rgba(2,0,36,1) 0,rgba(10,117,104,1) 10%,rgba(44,112,34,1) 28%,rgba(121,93,9,1) 50%,rgba(191,19,19,1) 80%,rgba(241,241,241,1) 100%);border:solid #000}
+.BreathText:active,.BreathText:hover{background-color:#006400;color:#fff;text-decoration:none}
+.BreathingGif{width:100%}
+.BreathingTitle{position:absolute;display:block;text-align:center;width:50%;left:25%;top:200px;border:1px solid #000;background:#866e6e}
+.MainBreaths{position:relative;display:block;text-align:center;width:100%;top:-32px;border:1px solid #000;background:#dbd3d3}
+.WaterTitle{display:block;margin-left:auto;margin-right:auto;text-align:center;width:90%;color:#0d0da7}
+.WaterBreathingGif{position:relative;display:block;margin-left:auto;margin-right:auto;top:0;width:55%;height:200px}
+.FlameBreathingGif{position:relative;display:block;margin-left:auto;margin-right:auto;width:55%;height:200px;top:0}
+.FlameTitle{display:block;margin-left:auto;margin-right:auto;text-align:center;width:90%;color:#da9109}
+.ThunderTitle{display:block;margin-left:auto;margin-right:auto;text-align:center;width:90%;color:#fbff01}
+.WindTitle{display:block;margin-left:auto;margin-right:auto;text-align:center;width:90%;color:#33bb09}
+.StoneTitle{display:block;margin-left:auto;margin-right:auto;text-align:center;width:90%;color:#724409}
+.FlowerTitle{display:block;margin-left:auto;margin-right:auto;text-align:center;width:90%;color:#c93e61}
+.SerpentTitle{display:block;margin-left:auto;margin-right:auto;text-align:center;width:90%;color:#bdbdbd}
+.InsectTitle{display:block;margin-left:auto;margin-right:auto;text-align:center;width:90%;color:#ac09bb}
+.LoveTitle{display:block;margin-left:auto;margin-right:auto;text-align:center;width:90%;color:#dd54b0}
+.SoundTitle{display:block;margin-left:auto;margin-right:auto;text-align:center;width:90%;color:#fff}
+.MistTitle{display:block;margin-left:auto;margin-right:auto;text-align:center;width:90%;color:#52bbb6}
+.BeastTitle{display:block;margin-left:auto;margin-right:auto;text-align:center;width:90%;color:#b1b1b1}
+.Pillars{display:block;margin-left:auto;margin-right:auto;width:90%;height:250px}
+.Pillars-a{position:relative;display:block;text-align:center;width:40%;left:30%;text-decoration:none;top:-165px}
+.PillarsText{color:#000;border:solid #000;background:#2e2e74}
+.PillarsText:active,.PillarsText:hover{background-color:red;color:#fff;text-decoration:none}
+.PillarTitle{display:block;margin-left:auto;margin-right:auto;text-align:center;width:90%;color:#818181}
+.Moons{display:block;margin-left:auto;margin-right:auto;width:90%;height:250px}
+.Moons-a{position:relative;display:block;text-align:center;width:40%;left:30%;text-decoration:none;top:-165px}
+.MoonsText{color:#000;border:solid #000;background:#8a2828}
+.MoonsText:active,.MoonsText:hover{background-color:#2e2e74;color:#fff;text-decoration:none}
+#checkbox{display:none}
+#checkbox:checked~nav ul{max-height:200px;padding:15px 0;transition:all .5s}
+form{font:1em sans-serif}
+.bold{font-weight:700;color:#000;background-color:#fff}
+.center2{text-align:center;background:#fff}
+label{color:#fff}
+.u-full-width{width:100%;color:#fff}
+.center{text-align:center}
+.space{border-top:solid transparent 100px;border-bottom:solid transparent 100px}
+.beast{text-align:center;color:#fff;background-color:#2471a3}
+.flame{text-align:center;color:#fff;background-color:#a93226}
+.flower{text-align:center;color:#fff;background-color:#e6b0aa}
+.insect{text-align:center;color:#fff;background-color:#1b2631}
+.love{text-align:center;color:#fff;background-color:#f1948a}
+.mist{text-align:center;color:#fff;background-color:#85c1e9}
+.moon{text-align:center;color:#fff;background-color:#b3b6b7}
+.serpent{text-align:center;color:#fff;background-color:#707b7c}
+.sound{text-align:center;color:#fff;background-color:#aeb6bf}
+.stone{text-align:center;color:#fff;background-color:#784212}
+.sun{text-align:center;color:#fff;background-color:#f1c40f}
+.thunder{text-align:center;color:#fff;background-color:#9a7d0a}
+.water{text-align:center;color:#fff;background-color:#21618c}
+.wind{text-align:center;color:#fff;background-color:#2ecc71}
+@media (min-width:768px){
+.menu-icon{display:none}
+.efnisyfirlit{position:relative;top:-20px;background-color:transparent}
+nav ul{max-height:70px;padding:15px 0;text-align:left}
+nav ul li{display:inline-flex}
+.col-2-2{display:grid;grid-template-columns:1fr 1fr;grid-gap:1em}
+.topbutt:active,.topbutt:hover{background-color:#006400;color:#fff}
+.WaterBreathingGif{position:relative;display:block;margin-left:auto;margin-right:auto;width:100%;height:300px;top:0}
+.FlameBreathingGif{position:relative;display:block;margin-left:auto;margin-right:auto;width:100%;height:300px;top:0}
+.FlameTitle{border:0}
+}
